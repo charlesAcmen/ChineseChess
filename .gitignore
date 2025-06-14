@@ -1,2 +1,45 @@
 Build/
+# Qt 构建目录
+build-*/
+*.pro.user
+*.pro.user.*
+*.qmake.stash
 
+# 编译生成的文件
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.app
+
+# Qt Creator 自动保存
+*.autosave
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置（如 VS Code、CLion）
+.vscode/
+.idea/
+CMakeLists.txt.user
+
+# 临时文件
+*~
+*.swp
+*.bak
+
+# QML 缓存
+qmlcache/
+*.qmlc
+
+# 调试文件
+core
+*.core
+*.stackdump
+
+# macOS 特定
+._*
+.Spotlight-V100
+.Trashes
